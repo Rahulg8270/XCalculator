@@ -1,0 +1,30 @@
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-container{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.button-container button{
+    padding: 1.5vw 1vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.resultAreaContainer{
+    margin: 2vw 0;
+    color: rgb(139, 139, 139);
+    /* font-weight: bold; */
+    font-size: 1.5vw;
+}
